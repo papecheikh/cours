@@ -1,0 +1,132 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    background-color: #287265;
+    height: 80px;
+    margin: 10px;
+}
+nav ul li{
+        list-style-type: none;
+        display: inline-block;
+        padding: 10px;
+}
+ul li a {
+    color: #fff;
+    letter-spacing: 0.1rem;
+}
+ul li a:hover{
+            color: "ffd358";
+            text-decoration: underline;
+}
+.menu li {
+    float: left;
+    padding: 30px;
+}
+.menu li a{
+    text-decoration: none;
+}
+.image {
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+footer{
+    flex-shrink: 0;
+    border-top: 1px dashed #000;
+    width: 100%;
+    background: #e5e4e4;
+    color: #333;
+} 
+.contenu-footer{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 40px 0 80px;
+    
+    
+}
+.bloc{
+    width: 25%;
+    margin: 0 30px;
+}
+/*contact*/
+.footer-contact h3
+.footer-services h3,
+.footer-media h3{
+    font-size: 25px;
+    padding-bottom: px;
+}
+.footer-contact p {
+    padding: 5px 0;
+}
+.list-services,
+.list-contact,
+.list-media{
+    list-style-type: none;
+}
+.list-services li {
+    padding: 2px 0;
+}
+.list-services a {
+    text-decoration: none;
+    color: #333;
+}
+.list-services a:hover {
+    color: fgb(3,3,3);
+}
+.list-media img{
+    width: 20px;
+    margin: 10px 10px;
+ 
+} 
+.list-media a {
+    text-decoration: none;
+    color: #333;
+    display:  flex;
+    align-items: center;
+    
+}
+.list-contact a {
+    text-decoration: none;
+    color: #333;
+    display:  flex;
+    align-items: center;
+    
+}
+@media screen and (max-width: 1300px) {
+    .contenu-footer{
+        width: 700px;
+        flex-wrap: wrap;
+    }
+    .bloc {
+        width: 40%;
+        margin: 0 0;
+    }
+    .bloc:nth-child(1)
+    .bloc:nth-child(2) {
+        margin: 50px;
+    
+    }
+    
+}
+@media screen and (max-width= 800px;) {
+    .contenu-footer{
+        width: 320px;
+    }    
+    .bloc {
+        width: 300px;
+        margin: 30px 30px;
+    }
+    .bloc:nth-child(1)
+    .bloc:nth-child(2) {
+        margin-bottom: 30px;
+    }
+    .bloc:nth-child(1){
+        margin-top: 0;
+    }
+}
