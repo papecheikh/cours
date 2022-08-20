@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+	font-family: 'Poppins', sans-serif;
+	color: rgb(240, 230, 230);
+	background-color: hsl(300, 16%, 94%);
+	width: 100%;
+	margin: 0; 
+}
+
+.parti_1{
+    margin-top: -6px;
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-left: -7%;
+    margin-right: -8%
+}
+nav{
+    color:white;
+    border:1px solid;
+    border-color: rgb(8, 8, 8);
+    width: 800px;
+    height: 310px;
+    background-color: rgb(20, 23, 23);
+    border-radius: 2%;
+    margin: auto;
+    padding: 2rem;
+    margin-top: 10%;
+}
+.resume {
+    color:white;
+    border:1px solid;
+    border-color: rgb(8, 8, 8);
+    width: 200px;
+    height: 310px;
+    background-color: rgb(20, 23, 23);
+    border-radius: 5%;
+    margin: auto;
+    padding: 2rem;
+    margin-top: 10%;
+    text-align: center;
+}
+.div_1 {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 10%;
+}
+h1 {display: flex;
+    justify-content: center;
+    color: rgb(242, 242, 246);
+    margin-top: -1px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 200;
+    border: 1px solid;
+    border-color: rgb(20, 23, 23);
+    background-color: rgb(20, 23, 23);
+    width: 70px;
+    height: 25px;
+}
+.montre {
+    width: 20%;
+    height: 20%;
+}
+.parti_2{
+    margin-top: 5%;
+    display: flex;
+    flex: 1 1 5 0rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin-left: -5rem;
+}
+.quantite{
+    margin-left: -50rem;
+}
+h2 {
+    margin-top: 100px;
+}
+h3 {
+    margin-top: -4px;
+}
+.ajout-supp{
+    margin-left: 350px;
+}
+.moins {
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+.nombre{
+    height: 2rem;
+    width: 4rem;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 1rem;
+    padding: .3rem;
+}
+.plus{
+    border-radius: 50%;
+    height: 2rem;
+    width: 2rem;
+    font-weight: bold;
+    transition: all .3s ease-in-out;
+}
+.ajout, .supp{
+    width: 75px;
+    height: 20px;
+    background-color: aqua;
+    border-radius: 5px;
+
+}
