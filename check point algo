@@ -1,0 +1,51 @@
+// compter les mot dans une phrase
+    Algorithm compte_mot
+    var nombre:integer;
+    i:integer;
+    ph:string
+    begin
+    read(ph) 
+    nombre:=0;   
+    while i < len(ph):
+    if ph[i] := " ":
+    then
+    nombre = nombre + 1;
+    end if
+    else if ph := " ":
+    then
+    nombre := 0;
+    end else if
+    return nombre;
+    end
+
+    // La longueur de la phrase
+    Algorithm long_ph
+    var nombre: integer;
+        i: integer;
+        ph: string;
+        begin 
+        read(ph)
+        nombre:=0;
+        for i from ph[0] to len(ph)-1
+            if ph[i]!= "."
+            then 
+            nombre:= nombre+1;
+            end if
+            end for
+            else
+            nombre:=0;
+            end else
+            end
+
+
+    // le nombre de voyelle
+    Algorithm voyelle
+    fonction nom_de_voy(ph:=string)
+    var i, nombre:integer
+    begin
+    nombre:=0
+    for i=1 to len(ph)-1
+    if ph[i]="a" || ph[i]:="e" || ph[i]:="i" || ph[i]:="o" || ph[i]:="u"|| ph[i]:="y"
+     then nombre:= nombre+1;
+     end if 
+     
