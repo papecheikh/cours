@@ -1,0 +1,56 @@
+PROCEDURE dot_product()
+var 
+   tab v(): float;
+   tab u(): float;
+   ps: float
+BEGIN
+        write ("Donner l'ellement", i+1, "du vecteur V");
+        read (V(i));
+        write ("Donner l'ellement", i+1, "du vecteur U");
+        read (U(i));
+        ps:= ps + V(i) * U(i);
+end 
+
+// PRODUIT SCALAIRE orthogonaux 
+algorithm dot_product_orth
+var 
+tab v(n): float;
+tab u(n): float;
+   i: integer;
+   ps: float;
+BEGIN
+   FOR i:= 0 TO n-1 STEP step Donner
+   dot_product();
+   END FOR
+    IF ps:=0
+    write("Ces 2 vecteur sont orthogonaux");
+end 
+// fonction a la place de procedure
+PROCEDURE dot_product(ps:float)
+var 
+   tab v(): float;
+   tab u(): float;
+   ps: float
+BEGIN
+        write ("Donner l'ellement", i+1, "du vecteur V");
+        read (V(i));
+        write ("Donner l'ellement", i+1, "du vecteur U");
+        read (U(i));
+        ps:= ps + V(i) * U(i);
+        write(ps);
+end 
+
+// PRODUIT SCALAIRE orthogonaux 
+algorithm dot_product_orth
+var 
+tab v(n): float;
+tab u(n): float;
+   i: integer;
+   ps: float;
+BEGIN
+   FOR i:= 0 TO n-1 STEP step Donner
+   dot_product();
+   END FOR
+    IF ps:=0
+    write("Ces 2 vecteur sont orthogonaux");
+end 
