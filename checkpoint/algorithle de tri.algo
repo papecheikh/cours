@@ -1,0 +1,21 @@
+Procedure tri_simple(tab[N]:integer)
+var i:integer;
+    j:integer
+    min:integer;
+    tmp:interger;
+   
+
+BEGIN
+for i from 0 to N-1 STEP do 
+read tab[i];
+
+for j FROM 1 to N STEP do
+if tab[j]<tab[min] then 
+min:=j;
+end IF 
+end FOR 
+tmp:= tab[i];
+tab[i]:=tab[min];
+tab[min]:=tmp;
+end FOR 
+end 
